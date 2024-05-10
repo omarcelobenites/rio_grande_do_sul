@@ -1,6 +1,6 @@
 header{
     position: sticky;
-    z-index: 2;
+    z-index: 3;
     top: 0;
     left: 0;
     background-color: rgb(66, 64, 64);
@@ -59,12 +59,12 @@ section#sobre{
 }  
 
 section.noticias{
-height: 280vh;
+height: 215vh;
 }
 
 section.ultimasnoticias{
 margin: 20px;
-height:280vh;
+height:215vh;
 }
 
 select img{
@@ -74,7 +74,12 @@ select img{
 
 section#sobre{
     background-color: rgb(251, 255, 0);
-    height:100vh;
+    height:80vh;
+    padding: 20px;
+}
+
+section#contato{
+    height:80vh;
     padding: 20px;
 }
 
