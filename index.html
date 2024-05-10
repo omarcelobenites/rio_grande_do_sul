@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio Grande do Sul</title>
+    <link rel="stylesheet" href="./lib/boostrap.min.css">
+    <link rel="stylesheet" href="./lib/main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg ">
+           <div class="container">
+            <img src="./img/rs.png" style="width:75px; height:50px;" alt=""><h5>Portal Rio Grande do Sul</h5>
+              <button type="button" class="navbar-toggler btn-dark" data-bs-toggle="collapse" data-bs-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills ">
+                        <li class="nav-item">
+                            <a class="nav-link nav-dark active" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ultimasnoticias">Últimas Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./img/1.png" alt="">
+                    <div class="carousel-caption">
+                        <h2>Mais de 100 mortos é encontrados no RS</h2>
+                    </div>
+                 </div>
+                 <div data-bs-interval="3000" class="carousel-item">
+                     <img class="d-block w-100" src="./img/2.png" alt="">
+                     <div class="carousel-caption">
+                         <h2>A mais enchente da história</h2>
+                     </div>
+                  </div>
+                  <div data-bs-interval="3000" class="carousel-item">
+                     <img class="d-block w-100" src="img/3.png" alt="">
+                     <div class="carousel-caption">
+                         <h2>Nos ajude com o Pix</h2>
+                     </div>
+                  </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+             <span class="carousel-control-next-icon"></span>
+         </button>
+             <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#carousel-exemplo" class="active"  data-bs-slide-to="0"></button>
+                 <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                 <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+             </div>
+         </div>
+    </div>
+    <div data-bs-spy="scroll"  data-bs-target="#cabecalho">
+        <div class="container">
+        <section id="sobre">
+            <div class="row">
+                <div class="col-md-5">
+                    <img  style="border: 6px solid yellow;" class="d-block w-100 mb-5 " src="./img/rio-grande-do-sul.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2>Sobre o Rio Grande do Sul</h2>
+                    <p>Rio Grande Do Sul é o estado que é rico em terras e plantações e tambem uma terra do gado bovino , com lugares maravilhosos como a serra gaúcha.</p>
+                    <p>Tem os litorais também como torres , cidreira , para quem tem orgulho de ser gaúcho isso é muito bom.</p>
+                </div>
+            </div>
+           </div>
+        </section>
+        <section id="noticias" class="noticias">
+            <div class="container">
+            <h2>Notícias</h2>
+        </div>
+            <div class="container">
+                <nav class="nav nav-pills">
+                   <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Últimas Notícias</button>
+                   <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Nossos Parceiros</button>
+                   <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Cidades Atingidas</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="container">
+                            <h3>Últimas Notícias</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img src="./img/3.0.jpg" alt="">
+                                        <div class="card-body">
+                                            <h4 class="card-tite">Vítimas no Rio Grande do Sul</h4>
+                                            <p class="card-text">
+                                                Sobe o núme de vítimas no nosso estado mais de 100 vítimas são encontradas mortas , devido as enchentes causada no Estado.
+                                            </p>
+                                            <a href="#" class="btn btn-success">Saiba Mais</a>
+                                        </div>
+                                     </div>
+                                </div><!--col-4-->
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img src="./img/2.0.png" alt="">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Várias cidades foram atingidas</h4>
+                                            <p class="card-text">
+                                                Varias cidades foram atingidas no estado no total foram atingidas 147 cidades é lamentoso ver cidades com casas sendo destroçadas e arramcadas fora no barro.
+                                            </p>
+                                            <a href="#" class="btn btn-success"> Saiba Mais</a>
+                                        </div>
+                                     </div>
+                                </div><!--col-4-->
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img src="./img/1.0.png" alt="">
+                                        <div class="card-body">
+                                            <h4 class="card-tite">Nos na reconstrução da cidade</h4>
+                                            <p class="card-text">
+                                                Nos ajude a ajudar a que precisa seja voluntário neste momento em que o estado está precisando , vamos nos unir neste momento desesperador pensando e ajudando o próximo.
+                                            </p>
+                                            <a href="#" class="btn btn-success">Saiba Mais</a>
+                                        </div>
+                                     </div>
+                                </div><!--col-4-->
+                               </div><!--row-->
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                       <div class="container">
+                        <h3>Nossos Parceiros</h3>
+                       <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./img/Screenshot_3.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-tite">Empresários estão ajudando na reconstrução da cidade</h4>
+                                    <p class="card-text">
+                                        Pablo marchal , dalexandro e entre outro empresários como os surfistas estão ajudando na reconstrução da cidade dondo alimentos , cesta básica e arrecando dinheiro para a reconstrução de casas, para as pessoas que perderam tudo.
+                                    </p>
+                                    <a href="#" class="btn btn-success">Saiba Mais</a>
+                                </div>
+                             </div>
+                        </div><!--col-4-->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./img/Screenshot_3.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-tite">Dono da Havan, Luciano Hang envia helicópteros para ajudar em resgate no RS</h4>
+                                    <p class="card-text">
+                                        A tragédia das tempestades que atingiram o estado do Rio Grande do Sul nesta semana motivou uma onda de solidariedade em todo o país...
+                                    </p>
+                                    <a href="#" class="btn btn-success">Saiba Mais</a>
+                                </div>
+                             </div>
+                        </div><!--col-4-->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./img/pablo.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-tite">Empresário e coach Pablo Marçal organiza mega operação de ajuda ao Rio Grande do Sul: Carretas e aviões</h4>
+                                    <p class="card-text">
+                                        Sob a hashtag “MISSÃO RIO GRANDE DO SUL”, Marçal tem mobilizado apoio para arrecadar itens essenciais...
+                                    </p>
+                                    <a href="#" class="btn btn-success">Saiba Mais</a>
+                                </div>
+                             </div>
+                        </div><!--col-4-->
+                       </div><!--row-->
+                       </div>
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                       <div class="container">
+                         <h3>Cidades Atingidas</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="./img/Screenshot_1.jpg" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-tite">Chega a 397 número de municípios atingidos por temporais no RS; veja número de mortes por cidade</h4>
+                                        <p class="card-text">
+                                            O número de municípios atingidos pelos fortes temporais que atingem o Rio Grande do Sul desde a semana passada chegou a 397 nesta terça-feira, segundo nova atualização da Defesa civil do estado... 
+                                        </p>
+                                        <a href="#" class="btn btn-success">Saiba Mais</a>
+                                    </div>
+                                 </div>
+                            </div><!--col-4-->
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="./img/Screenshot_4.jpg" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-tite">Chuvas no RS: mais de 85% das cidades gaúchas foram afetadas; veja lista</h4>
+                                        <p class="card-text">
+                                            De acordo com o relatório, 428 das 497 cidades gaúchas foram afetadas pelas tempestades –o equivalente a 86,2% do total. Ou seja, somente 69 não tiveram nenhum impacto relacionado às chuvas.
+                                        </p>
+                                        <a href="#" class="btn btn-success"> Saiba Mais</a>
+                                    </div>
+                                 </div>
+                            </div><!--col-4-->
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="./img/Screenshot_5.jpg" alt="">
+                                    <div class="card-body">
+                                        <h4 class="card-tite">Como ser voluntário no Rio Grande do Sul? Saiba como se inscrever para ajudar vítimas das chuvas</h4>
+                                        <p class="card-text">
+                                            Em meio à tragédia climática no Rio Grande do Sul, o trabalho de voluntários tem sido essencial no apoio à população impactada pelas enchentes no estado. Na última atualização...
+                                        </p>
+                                        <a href="#" class="btn btn-success">Saiba Mais</a>
+                                    </div>
+                                 </div>
+                            </div><!--col-4-->
+                           </div><!--row-->
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ultimasnoticias" class="pt-5 pb-5 ultimasnoticias">
+            <div class="container">
+            <h2>Últimas Notícias</h2>
+        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/2.0.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Várias cidades foram atingidas</h4>
+                                <p class="card-text">
+                                    Varias cidades foram atingidas no estado no total foram atingidas 147 cidades é lamentoso ver cidades com casas sendo destroçadas e arramcadas fora no barro.
+                                </p>
+                                <a href="#" class="btn btn-success"> Saiba Mais</a>
+                            </div>
+                         </div>
+                    </div><!--col-4-->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/pablo.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tite">Empresário e coach Pablo Marçal organiza mega operação de ajuda ao Rio Grande do Sul: Carretas e aviões</h4>
+                                <p class="card-text">
+                                    Sob a hashtag “MISSÃO RIO GRANDE DO SUL”, Marçal tem mobilizado apoio para arrecadar itens essenciais...
+                                </p>
+                                <a href="#" class="btn btn-success">Saiba Mais</a>
+                            </div>
+                         </div>
+                    </div><!--col-4-->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./img/Screenshot_5.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-tite">Como ser voluntário no Rio Grande do Sul? Saiba como se inscrever para ajudar vítimas das chuvas</h4>
+                                <p class="card-text">
+                                    Em meio à tragédia climática no Rio Grande do Sul, o trabalho de voluntários tem sido essencial no apoio à população impactada pelas enchentes no estado. Na última atualização...
+                                </p>
+                                <a href="#" class="btn btn-success">Saiba Mais</a>
+                            </div>
+                         </div>
+                    </div><!--col-4-->
+                   </div><!--row-->
+            </div>
+        </section>
+        <section id="contato" class="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                       <h2>Entre em contato</h2>
+                       <form>
+                           <label class="form-label" for="nome">Seu nome:</label>
+                           <input class="form-control" type="text"  id="nome" required>
+                           <label class="form-label" for="email">Seu email</label>
+                           <input type="email" class="form-control" id="email" required>
+                           <label class="form-label" for="telefone">Telefone</label>
+                           <input type="tel" class="form-control" id="telefone" required>
+                           <br />
+                           <button class="btn btn-success">Enviar</button>
+                       </form>
+                    </div><!--col-->
+                 </div><!--row-->
+            </div><!---container-->
+
+        </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function(){
+    $('#telefone').mask('(00) 00000-0000');
+    })
+    </script>
+</body>
+</html>
